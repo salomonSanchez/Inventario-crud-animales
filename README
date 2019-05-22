@@ -1,0 +1,12 @@
+ npm i -g mocha
+ npm i chai
+
+ //reportes
+ npm i -g nyc
+
+ //uso
+ nyc mocha
+ nyc test
+
+ //reporte html
+ nyc report --reporter=html
